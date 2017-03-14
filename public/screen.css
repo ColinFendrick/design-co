@@ -33,8 +33,6 @@ body {
   background-color:white;
 }
 
-
-
 .navBar ul {
   flex-grow:1;
   height:44px;
@@ -60,9 +58,6 @@ body {
     margin-right:7px;
 }
 
-
-
-
 .theDetailsMatter {
   text-align: center;
   margin-top: 22px;
@@ -77,12 +72,12 @@ body {
   margin: 2px;
 }
 .imageContainer {
-   display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 .naturePictures {
   height:400px;
@@ -91,12 +86,12 @@ body {
 }
 
 .low {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 #projects {
@@ -114,7 +109,6 @@ body {
 .lowInfo {
   color: grey;
   font-size: 10px;
-
 }
 
 .lowBoxTwo {
