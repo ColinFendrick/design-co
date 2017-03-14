@@ -89,9 +89,10 @@ body {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: flex-start;
   align-items: flex-start;
+  margin-right: 400px;
 }
 
 #projects {
@@ -104,6 +105,7 @@ body {
   text-align: center;
   margin-left: 320px;
   margin-right: 100px;
+  flex-grow:1;
 }
 
 .lowInfo {
@@ -114,4 +116,6 @@ body {
 .lowBoxTwo {
   width: 450px;
   text-align:justify;
+  flex-grow:3
+
 }
