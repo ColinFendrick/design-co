@@ -1,8 +1,123 @@
 html {
   text-size-adjust: 100%;
+  background-color: #e0e0db
 }
 
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  text-align:center;
+}
+
+.navBar {
+  border-top:4px solid teal;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color:grey;
+  margin-left: 300px;
+  margin-right: 300px;
+  height:44px;
+}
+
+.navBar a:hover {
+  color: red;
+  background-color: white;
+}
+
+.navBar a:active {
+  color: red;
+  background-color:white;
+}
+
+
+
+.navBar ul {
+  flex-grow:1;
+  height:44px;
+  list-style: none;
+  display: inline-flex;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 2px 3px #333333;
+  color: black;
+  margin: 0px 18px 0px;
+  font-size: 14px
+  font-family:sans-serif;
+}
+
+.navBarLink {
+  margin: 0px 18px 0px;
+  height: 44px;
+  padding-top: 15px;
+}
+
+.magnifyingGlass {
+    padding: 0px;
+    margin-right:7px;
+}
+
+
+
+
+.theDetailsMatter {
+  text-align: center;
+  margin-top: 22px;
+  color:grey;
+  margin-bottom: 2px;
+  padding-bottom:0px;
+}
+
+.slogan {
+  color:grey;
+  text-align: center;
+  margin: 2px;
+}
+.imageContainer {
+   display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.naturePictures {
+  height:400px;
+  width:400px;
+  margin: 22px;
+}
+
+.low {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+#projects {
+  font-size:10px;
+  color: grey;
+}
+
+.lowBox {
+  display: inline;
+  text-align: center;
+  margin-left: 320px;
+  margin-right: 100px;
+}
+
+.lowInfo {
+  color: grey;
+  font-size: 10px;
+
+}
+
+.lowBoxTwo {
+  width: 450px;
+  text-align:justify;
 }
